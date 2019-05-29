@@ -2,7 +2,7 @@ package testmod
 
 import "fmt"
 
-// Print prints String "Hola, Mundo!"
-func Print() {
-  fmt.Println("Hola, Mundo!")
+// Print prints greeetings with salutation and name passed as arguments
+func Print(salutation, name string) {
+  fmt.Println("\n%s, %s!\n", salutation, name)
 }
